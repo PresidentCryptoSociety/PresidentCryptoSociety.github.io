@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+
+
+ h1, h2 {
+  margin: 0;
+  padding: 15px;
+  color: rgb(230,230,230);
+  font-family: "Roboto", "sans-serfif";
+  font-weight: 200;
+  text-align: center;
+ }
+
+ h4 {
+  font-size: 20px;
+  font-family: "Roboto", "sans-serfif";
+  font-weight: 200;
+ }
+
+ p {
+  text-align: center;
+  font-size: 15px;
+  font-family: "Roboto", "sans-serfif";
+  font-weight: 200;
+  margin: 20px 30px;
+ }
+
+ .intro-text {
+  font-size: 16px;
+  font-family: "Roboto", "sans-serfif";
+  font-weight: 200;
+  color: rgb(230,230,230);
+ }
+
+ .white-paper {
+  height: 80px;
+  width: 240px;
+  font-size: 18px;
+  margin: 0 auto;
+  text-decoration: none;
+  font-family: "Roboto", "sans-serfif";
+  font-weight: 200;
+  background-color:rgb(40,40,60);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  z-index: 40;
+  transition: all ease-in-out .2s;
+  text-decoration: none;
+  color:#eee;
+ }
+
+ .white-paper:hover {
+  color:rgb(40,40,60);
+  background-color:#eee;
+  transition: all ease-in-out .2s;
+ }
+ /* Navbar */
+
+.navbar {
+  overflow: hidden;
+  background-color: black;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 30;
+}
+
+ .logo {
+   height: 80px;
+   z-index: 32;
+ }
+
+ .container {
+  margin: 0 auto;
+  margin-top: 80px;
+  width: 80%;
+  max-width: 700px;
+  background-color: rgba(30,30,30,0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ }
+
+ .card {
+  font-family: "Roboto", "sans-serfif";
+  font-weight: 200;
+  padding: 20px;
+  margin: 20px auto;
+  text-align: center;
+  content-align: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 20px 20px 20px rgba(30,30,30,0.2);
+  max-width: 80%;
+ }
+
+ .card:last-child {
+   display: none !important;
+ }
+
+ .example-pic {
+  min-width: 80%;
+  max-width: 500px;
+  min-height: 300px;
+  max-height: 300px;
+  margin: 0 auto;
+  background-color: linear-gradient(#e66465, #9198e5);
+  z-index: 10;
+  position: relative;
+  overflow:hidden !important;
+ }
+
+ .title-image {
+  min-width: 100%;
+  max-width: 500px;
+  min-height: 300px;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+  overflow: hidden;
+ }
+
+.image-shade {
+  position: absolute;
+  z-index: 20;
+  background-color: rgba(30,30,30,0.3);
+  top: 0;
+  left: 0;
+}
+
+.apply-button {
+  position: absolute;
+  height: 80px;
+  width: 160px;
+  font-size: 22px;
+  background-color: black;
+  top: calc(50% - 40px);
+  left: calc(50% - 80px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  z-index: 40;
+  transition: all ease-in-out .2s;
+  text-decoration: none;
+  color:white;
+}
+
+.apply-button:hover {
+  background-color: rgb(220,220,240);
+  color: rgb(50,50,50);
+  transition: all ease-in-out .2s;
+}
+
+/* Requirements Part */
+
+.requirements {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+  padding-top: 0;
+  flex-wrap: wrap;
+}
+
+.single-requirement {
+  background-color: #fafafa;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  margin-left: 0;
+  transition: all ease-in-out .2s;
+}
+
+.single-requirement:hover {
+  background-color: #333;
+  color: #fafafa;
+  transition: all ease-in-out .2s;
+}
+
+.single-requirement > p {
+  font-size: 14px;
+  margin: 0;
+}
+
+
+
+
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: all ease-in-out .2s;
+  border-radius: 5px;
+}
+
+.collapsible > p {
+  margin: 0;
+  padding: 0;
+}
+
+.collapsible:hover{
+  transition: all ease-in-out .2s;
+  background-color: rgb(200,200,200);
+}
+
+.collapsible > div {
+  display: none;
+  transition: all ease-in-out .2s;
+}
+
+ .chevron {
+  height: 12px;
+  width: 12px;
+ }
+
+ .chevron-up {
+  display: none;
+ }
+
+ .chevron-down {
+  display: inline;
+ }
+
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active {
+  background-color: rgb(220,220,220);
+}
+
+.active > div {
+  display: block;
+  transition: all ease-in-out .2s;
+}
+
+.active > p > .chevron-down {
+  display: none ;
+}
+
+.active > p > .chevron-up {
+  display: inline;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+
+
+
+
+
+
