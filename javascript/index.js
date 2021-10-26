@@ -70,10 +70,10 @@ board_positions = {
   head_of_legal_affairs: {
     title: "Head of Legal Affairs",
     image: "legal-affairs.jpeg",
-    short_description: "As Head of Legal Affairs, you are in charge of the creation of all legal documents of the society. Further on, you incorporate the society officially into the SHSG. Also, you are in charge of the creation & appointment of the Judicial Committee. ",
+    short_description: "As Head of Legal Affairs, you are in charge of the creation of all legal documents of the society. Further on, you incorporate the society officially. Also, you are in charge of the creation & appointment of the Judicial Committee. ",
     requirements: ["Fluent English", "High Motivation", "High Interest in Legal Affairs", "Working Autonomously"],
     tasks: ["The Head of Legal Affairs manages all legal affairs of the society.",
-    "The Head of Legal Affairs drafts up a constitution for the society and is responsible for the accreditation of the society at HSG.",
+    "The Head of Legal Affairs drafts up a constitution for the society and is responsible for the future accreditation of the society.",
     "The Head of Legal Affairs determines the three justices of the Judicial Committee, when established.",
     "The Head of Legal Affairs develops the department of legal affairs.",
     "The Head of Legal Affairs assists in the content creation for the society's events."],
