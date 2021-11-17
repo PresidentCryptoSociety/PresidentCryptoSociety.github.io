@@ -1,4 +1,10 @@
 board_positions = {
+  president: {
+    title: "President",
+    image: "president.jpeg",
+    short_description: "As Vice-President, you co-run the executive board. You will engage in many entrepreneurial and managerial tasks, and be a vital part of the Executive Board.",
+    requirements: ["Fluent English", "Very High Motivation", "Interests in Crypto & Blockchain", "High Social Skills"],
+    },
   vice_president: {
     title: "Vice-President",
     image: "vice-president.jpeg",
@@ -133,7 +139,7 @@ function stringifyHTML(position) {
   
   let header = `<h4 class="title">${position["title"]}</h4>
   <div class="example-pic">
-    <img src="images/${position['image']}" class="title-image">
+    <img src="people_images/${position['image']}" class="title-image">
     <div class="image-shade title-image"></div>
     </div>
     <h4 class="name">Benjamin L. Brückner</h4>
