@@ -83,18 +83,51 @@
   justify-content: center;
  }
 
+ .grid-item {
+   display: flex;
+   flex-wrap: wrap;
+ }
+
+/* NEW MEMBER CARD */
+
+.pos-img-person {
+  min-width: 100%;
+  max-width: 500px;
+  min-height: 300px;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.pos-img-pos {
+  min-width: 64px;
+  max-width: 64px;
+  min-height: 64px;
+  max-height: 64px;
+  object-fit: cover;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.image-shade {
+  position: absolute;
+  z-index: 20;
+  background-color: rgba(30,30,30,0.3);
+  top: 0;
+  left: 0;
+}
 
 
 
+/* OLD APPLICATION CARD */
 
-
-
-
- /* OLD APPLICATION CARDS */
  .card {
   font-family: "Roboto", "sans-serfif";
+  width: 360px;
   font-weight: 200;
-  padding: 20px;
+  padding: 5px;
   margin: 20px auto;
   text-align: center;
   content-align: center;
@@ -108,9 +141,21 @@
    display: none !important;
  }
 
+.title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.name {
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+
+
  .example-pic {
   min-width: 80%;
-  max-width: 500px;
+  max-width: 350px;
   min-height: 300px;
   max-height: 300px;
   margin: 0 auto;
@@ -166,6 +211,7 @@
 
 .requirements {
   display: flex;
+  margin: 0 auto;
   justify-content: flex-start;
   padding: 10px;
   padding-top: 0;
@@ -181,10 +227,22 @@
   transition: all ease-in-out .2s;
 }
 
-.single-requirement:hover {
+.text-single-requirement {
+  text-decoration: none;
+  color: #333 ;
+}
+
+.single-requirement:hover > .text-single-requirement {
   background-color: #333;
   color: #fafafa;
   transition: all ease-in-out .2s;
+}
+
+.single-requirement:hover {
+  background-color: #333 !important;
+  color: #fafafa !important;
+  transition: all ease-in-out .2s;
+  cursor: pointer;
 }
 
 .single-requirement > p {

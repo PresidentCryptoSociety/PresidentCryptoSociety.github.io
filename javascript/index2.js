@@ -137,53 +137,15 @@ function stringifyHTML(position) {
     <div class="image-shade title-image"></div>
     </div>
     <h4 class="name">Benjamin L. Brückner</h4>
+    <img src="images/${position['image']}" class="pos-img-pos">
     <p class="short-description">${position["short_description"]}The requirements are:</p>`
  
-  let requirements = "<div class='requirements'>"
-  for (i in position["requirements"]) {
-    requirements = requirements + `<div class="single-requirement">
-      <p class="text-single-requirement">${position['requirements'][i]}</p>
-      </div>`
-  }
-  requirements = requirements + "</div>"
-  let collapsible =`<div class="collapsible"><p>
-      <img src="images/up-chevron.svg" class="chevron chevron-up" >
-      <img src="images/down-chevron.svg" class="chevron chevron-down">
-      Show tasks, authority & accountability (TAA):
-    </p>`
+  let contact = `<div class='requirements'><div class="single-requirement"><a href="mailto:${"none@abc.ch"}"class="text-single-requirement">Contact Me</a></div>`
+  contact = contact + "</div>"
 
-  let tasks = `
-    <!-- TASKS -->
-    <div class="tasks">
-      <h5>Tasks</h5>
-      <ul class="task-list">`
 
-  for (i in position["tasks"]) {
-      tasks = tasks + `<li class="single-task">${position["tasks"][i]}</li>`
-  }
-
-  tasks = tasks + "</ul></div>"
-
-  authority = `<!-- Authority -->
-    <div class="authority">
-      <h5>Authority</h5>
-      <ul class="authority-list">`
-  for (i in position["authority"]) {
-    authority = authority + `<li class="single-authority">${position["authority"][i]}</li>`
-  }
-  authority = authority + "</ul></div>" 
-  
-  accountability = `<!-- Accountability -->
-  <div class="accountability">
-  <h5>Accountability</h5>
-  <ul class="accountability">`
-    
-  for (i in position["accountability"]) {
-    accountability = accountability + `<li class="single-accountability">${position["accountability"][i]}</li>`
-  }
-  accountability = accountability + "</ul></div>"
         
-  my_html = header +requirements + collapsible + tasks + authority + accountability + "</div></div>"    
+  my_html = header + contact+ "</div></div>"    
   return my_html
 }
 
