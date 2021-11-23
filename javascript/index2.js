@@ -33,7 +33,7 @@ board_positions = {
     title: "Head of Finance",
     name: "Elias Henke",
     image: "finance.jpg",
-    people_image: "marketing.jpg",
+    people_image: "finance.jpg",
     short_description: "As Head of Finance, I am responsible for managing all financial affairs of the society as well as for the development of the finance department.",
     email: "finance@cryptosocietystgallen.club"
   },
