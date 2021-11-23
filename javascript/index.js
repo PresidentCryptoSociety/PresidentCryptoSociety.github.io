@@ -135,10 +135,9 @@ function stringifyHTML(position) {
   <div class="example-pic">
     <img src="images/${position['image']}" class="title-image">
     <div class="image-shade title-image"></div>
-    <a href="mailto:president@cryptosocietystgallen.club?subject=Application for ${position["title"]}&body=${body}" class="apply-button">Apply!</a>
-  </div>
-
-  <p class="short-description">${position["short_description"]}The requirements are:</p>`
+    </div>
+    <h4 class="name">Benjamin L. Brückner</h4>
+    <p class="short-description">${position["short_description"]}The requirements are:</p>`
  
   let requirements = "<div class='requirements'>"
   for (i in position["requirements"]) {
