@@ -11,7 +11,7 @@ board_positions = {
     title: "Vice-President",
     name: "Gian O. Mühlemann",
     image: "vice-president.jpeg",
-    people_image: "marketing.jpg",
+    people_image: "vice-president.jpg",
     short_description: "As Vice-President, I support and advise the president in his operative and strategic tasks. Together we lead and assist the Board in creating a growing cryptosociety.",
     email: "vice-president@cryptosocietystgallen.club"
   },
@@ -26,8 +26,8 @@ board_positions = {
     title: "Chief of Staff",
     name: "Sanna Mühlemann",
     image: "staff.jpeg",
-    people_image: "marketing.jpg",
-    short_description: "As Chief of Staff, you are responsible for the recruitment of members to our society. Also, you are the first point of contact from our members to the Executive Board. You manage and engage our community. ",
+    people_image: "staff.png",
+    short_description: "As Chief of Staff my task ranges from recruitment of members to supporting them when questions or requests arise.",
     email: "chief-of-staff@cryptosocietystgallen.club"},
   head_of_finance: {
     title: "Head of Finance",
@@ -39,10 +39,10 @@ board_positions = {
   },
   head_of_academic_affairs: {
     title: "Head of Academic Affairs",
-    name: "Malte Kmauer",
+    name: "Malte Knauer",
     image: "academic-affairs.jpeg",
-    people_image: "marketing.jpg",
-    short_description: "As Head of Academic Affairs, you are in charge of the content (mainly crypto market analysis) of our weekly meetings. You have a deep knowledge and high interest in the crypto markets. In the future, you are set out to lead a team ofjunior crypto analysts. ",
+    people_image: "academic-affairs.jpg",
+    short_description: "As Head of Academic Affairs, I develop and plan how knowledge about crypto is shared throughout the society. My goal is to both let beginners have a good start into the realm of Crypto & Blockchain.",
     email: "academic-affairs@cryptosocietystgallen.club"
   },
   head_of_marketing: {

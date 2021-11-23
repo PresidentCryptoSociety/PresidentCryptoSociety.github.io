@@ -1,6 +1,8 @@
 function boardPositions(){
   board_positions = {
-    president: {}
+    president: {
+      
+    }
     vice_president: {
       title: "Vice-President",
       image: "vice-president",
