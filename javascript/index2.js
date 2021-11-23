@@ -12,7 +12,7 @@ board_positions = {
     name: "Gian O. Mühlemann",
     image: "vice-president.jpeg",
     people_image: "marketing.jpg",
-    short_description: "As Vice-President, you co-run the executive board. You will engage in many entrepreneurial and managerial tasks, and be a vital part of the Executive Board.",
+    short_description: "As Vice-President, I support and advise the president in his operative and strategic tasks. Together we lead and assist the Board in creating a growing cryptosociety.",
     email: "vice-president@cryptosocietystgallen.club"
   },
   head_of_legal_affairs: {
@@ -91,7 +91,7 @@ function stringifyHTML(position) {
   <div class="example-pic">
     <img src="people_images/${position["people_image"]}" class="title-image">
     <div class="image-shade title-image"></div>
-    </div>
+  </div>
     <h4 class="name">${position['name']}</h4>
     <img src="images/${position['image']}" class="pos-img-pos">
     <p class="short-description">${position["short_description"]}</p>`

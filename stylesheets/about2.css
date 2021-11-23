@@ -76,7 +76,7 @@
   margin: 0 auto;
   margin-top: 80px;
   width: 95%;
-  /* max-width: 700px; */
+  max-width: 700px; 
   background-color: rgba(30,30,30,0.8);
   display: flex;
   flex-direction: column;
@@ -125,7 +125,7 @@
 
  .card {
   font-family: "Roboto", "sans-serfif";
-  width: 360px;
+  width: 300px;
   font-weight: 200;
   padding: 5px;
   margin: 20px auto;
@@ -151,7 +151,9 @@
   font-weight: 500;
 }
 
+.image-container {
 
+}
 
  .example-pic {
   min-width: 80%;
@@ -162,7 +164,9 @@
   background-color: linear-gradient(#e66465, #9198e5);
   z-index: 10;
   position: relative;
-  overflow:hidden !important;
+  overflow: hidden !important;
+  text-align: center;
+  color: white;
  }
 
  .title-image {
