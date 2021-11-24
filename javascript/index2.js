@@ -26,8 +26,8 @@ board_positions = {
     title: "Chief of Staff",
     name: "Sanna Mühlemann",
     image: "staff.jpeg",
-    people_image: "staff.png",
-    short_description: "As Chief of Staff my task ranges from recruitment of members to supporting them when questions or requests arise.",
+    people_image: "staff.jpg",
+    short_description: "As Chief of Staff, I am your first point of contact. I will make sure to help you if there are any issues or questions regarding to our society.",
     email: "chief-of-staff@cryptosocietystgallen.club"},
   head_of_finance: {
     title: "Head of Finance",
@@ -42,7 +42,7 @@ board_positions = {
     name: "Malte Knauer",
     image: "academic-affairs.jpeg",
     people_image: "academic-affairs.jpg",
-    short_description: "As Head of Academic Affairs, I develop and plan how knowledge about crypto is shared throughout the society. My goal is to both let beginners have a good start into the realm of Crypto & Blockchain.",
+    short_description: "As Head of Academic Affairs, I develop and plan how knowledge about crypto is shared throughout the society. My goal is to both let beginners and advanced students emerse into the realm of Crypto & Blockchain.",
     email: "academic-affairs@cryptosocietystgallen.club"
   },
   head_of_marketing: {
