@@ -26,7 +26,7 @@ board_positions = {
     title: "Chief of Staff",
     name: "Sanna Mühlemann",
     image: "staff.jpeg",
-    people_image: "staff.jpg",
+    people_image: "staff.png",
     short_description: "As Chief of Staff, I am your first point of contact. I will make sure to help you if there are any issues or questions regarding to our society.",
     email: "chief-of-staff@cryptosocietystgallen.club"},
   head_of_finance: {
